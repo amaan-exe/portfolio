@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent-100: var(--accent-100);
+  --color-accent-300: var(--accent-300);
+  --color-accent-500: var(--accent-500);
+  --color-accent-700: var(--accent-700);
+  --color-accent-900: var(--accent-900);
+  
+  --color-background-primary: var(--bg-primary);
+  --color-background-surface: var(--bg-surface);
+  --color-background-elevated: var(--bg-elevated);
+  --color-background-border: var(--bg-border);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-disabled: var(--text-disabled);
+
+  --color-success: var(--success);
+  --color-error: var(--error);
+  --color-warning: var(--warning);
+
+  /* Fonts */
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+@layer base {
+  :root {
+    /* Backgrounds */
+    --bg-primary:     #050508;
+    --bg-surface:     #0d0f1a;
+    --bg-elevated:    #13162b;
+    --bg-border:      #1a1e33;
+
+    /* Neon Green Accent System */
+    --accent-100:     #ccffe0;
+    --accent-300:     #66ffaa;
+    --accent-500:     #00ff7f;
+    --accent-700:     #00cc63;
+    --accent-900:     #004d26;
+
+    /* Text */
+    --text-primary:   #e8f0f8;
+    --text-secondary: #7b8fa6;
+    --text-disabled:  #3a4560;
+
+    /* Functional */
+    --success:        #00ff7f;
+    --error:          #ff4d6d;
+    --warning:        #ffd166;
+
+    /* Glow values */
+    --glow-sm:  0 0 8px rgba(0, 255, 127, 0.4);
+    --glow-md:  0 0 20px rgba(0, 255, 127, 0.35);
+    --glow-lg:  0 0 40px rgba(0, 255, 127, 0.25);
+    --glow-xl:  0 0 80px rgba(0, 255, 127, 0.15);
+  }
+
+  body {
+    @apply bg-[var(--bg-primary)] text-[var(--text-primary)] font-body antialiased;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: var(--glow-sm);
+  }
+}

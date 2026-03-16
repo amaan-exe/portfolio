@@ -1,0 +1,7 @@
+{
+  "languages": ["Python", "Java", "C", "JavaScript", "TypeScript", "HTML / CSS"],
+  "frontend":  ["React", "Next.js", "Tailwind CSS", "Framer Motion", "GSAP", "Three.js"],
+  "backend":   ["Node.js", "Express"],
+  "tools":     ["Git", "GitHub", "Cursor", "VS Code", "Linux"],
+  "other":     ["OOP", "DSA (basics)", "REST APIs", "UI/UX Principles"]
+}
