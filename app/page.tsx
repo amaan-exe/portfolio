@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/navigation/Navbar";
 import { HeroSection } from "@/components/hero/HeroSection";
+import { TerminalSection } from "@/components/terminal/TerminalSection";
 import { AboutSection } from "@/components/about/AboutSection";
 import { ProjectsSection } from "@/components/projects/ProjectsSection";
 import { SkillsSection } from "@/components/skills/SkillsSection";
@@ -17,6 +18,7 @@ export default function Home() {
       <HeroSection />
       
       <div className="relative z-10 bg-[var(--bg-primary)]">
+        <TerminalSection />
         <AboutSection />
         <ProjectsSection />
         <SkillsSection />
