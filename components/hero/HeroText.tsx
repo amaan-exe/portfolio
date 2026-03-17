@@ -16,7 +16,7 @@ export function HeroText() {
 
   const prefersReducedMotion = useReducedMotion();
   const [descText, setDescText] = useState("");
-  const fullDesc = "Web developer & freelancer based in Bhubaneswar.";
+  const fullDesc = "Intermediate-beginner level developer actively building real client projects.";
 
   useEffect(() => {
     if (prefersReducedMotion || !containerRef.current) {
@@ -142,9 +142,9 @@ export function HeroText() {
 
       <h2 
         ref={subheadRef}
-        className="font-display font-medium text-2xl md:text-3xl lg:text-h2 text-[var(--text-secondary)] mb-6 opacity-0"
+        className="font-display font-medium text-2xl md:text-3xl lg:text-h2 text-[var(--text-secondary)] mb-6 opacity-0 px-4 md:px-0"
       >
-        I build things for the web.
+        I build tools and systems that solve actual problems.
       </h2>
 
       <p 

@@ -1,7 +1,7 @@
 {
-  "languages": ["Python", "Java", "C", "JavaScript", "TypeScript", "HTML / CSS"],
-  "frontend":  ["React", "Next.js", "Tailwind CSS", "Framer Motion", "GSAP", "Three.js"],
-  "backend":   ["Node.js", "Express"],
-  "tools":     ["Git", "GitHub", "Cursor", "VS Code", "Linux"],
-  "other":     ["OOP", "DSA (basics)", "REST APIs", "UI/UX Principles"]
+  "languages": ["Python", "JavaScript", "TypeScript", "HTML5", "CSS3", "C", "SQL"],
+  "frontend":  ["React", "Next.js", "Vite", "Tailwind CSS", "Framer Motion", "GSAP"],
+  "backend":   ["Node.js", "SQLite"],
+  "tools":     ["Tkinter", "Vercel", "React Router", "PostCSS", "Babel"],
+  "other":     ["Cursor (AI code editor)", "Git", "GitHub"]
 }

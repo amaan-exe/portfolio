@@ -84,7 +84,7 @@ export function AboutSection() {
             ref={(el) => { textRefs.current[0] = el; }}
             className="font-body text-body-lg md:text-xl text-[var(--text-primary)] leading-relaxed"
           >
-            I'm Amaan — a web developer and software freelancer based in Bhubaneswar, India. I'm currently in my second year of B.Tech at NIST Berhampur, building real software between lectures.
+            I'm Amaan — a B.Tech Computer Science student and aspiring web developer/freelancer. I hail from Jamshedpur, Jharkhand, but I'm currently based in Berhampur, Odisha for my second year at NIST University, where I build real software between lectures.
           </p>
           <p 
             ref={(el) => { textRefs.current[1] = el; }}
@@ -96,7 +96,7 @@ export function AboutSection() {
             ref={(el) => { textRefs.current[2] = el; }}
             className="font-body text-body-lg md:text-xl text-[var(--text-secondary)] leading-relaxed"
           >
-            When I'm not writing code, I'm thinking about geopolitics, learning languages, or deep in a strategy game. That same systems-thinking filters into how I approach technical problems.
+            When I'm not writing code or organizing tech events as a Core Member of Club Excel NIST, I'm thinking about geopolitics, learning languages, or deep in a strategy game.
           </p>
 
           <div className="pt-4">
@@ -115,22 +115,22 @@ export function AboutSection() {
           <div className="grid grid-cols-2 gap-x-8 gap-y-12">
             <div>
               <div className="font-display font-bold text-h1 text-[var(--text-primary)] flex items-end">
-                <span ref={(el) => { statsRefs.current[0] = el; }} data-target="3" className="leading-none">0</span>
+                <span ref={(el) => { statsRefs.current[0] = el; }} data-target="6" className="leading-none">0</span>
                 <span className="text-[var(--accent-500)] text-2xl mb-2">+</span>
               </div>
-              <div className="font-body text-sm text-[var(--text-secondary)] mt-2">Web projects shipped</div>
+              <div className="font-body text-sm text-[var(--text-secondary)] mt-2">Projects shipped</div>
             </div>
             
             <div>
               <div className="font-display font-bold text-h1 text-[var(--text-primary)] flex items-end">
-                <span ref={(el) => { statsRefs.current[1] = el; }} data-target="2" className="leading-none">0</span>
+                <span ref={(el) => { statsRefs.current[1] = el; }} data-target="7" className="leading-none">0</span>
               </div>
-              <div className="font-body text-sm text-[var(--text-secondary)] mt-2">Programming languages (Python, JS)</div>
+              <div className="font-body text-sm text-[var(--text-secondary)] mt-2">Programming languages</div>
             </div>
 
             <div>
               <div className="font-display font-bold text-h1 text-[var(--text-primary)] flex items-end">
-                <span ref={(el) => { statsRefs.current[2] = el; }} data-target="5" className="leading-none">0</span>
+                <span ref={(el) => { statsRefs.current[2] = el; }} data-target="15" className="leading-none">0</span>
                 <span className="text-[var(--accent-500)] text-2xl mb-2">+</span>
               </div>
               <div className="font-body text-sm text-[var(--text-secondary)] mt-2">Tools & frameworks</div>

@@ -12,3 +12,4 @@ export const TIMING = {
 };
 
 export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "amaan@example.com";
+export const CONTACT_PHONE = "+91 8271301179";

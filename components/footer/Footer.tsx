@@ -1,5 +1,5 @@
-import { CONTACT_EMAIL } from "@/lib/constants";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { CONTACT_EMAIL, CONTACT_PHONE } from "@/lib/constants";
+import { Github, Linkedin, Mail, Instagram, Phone } from "lucide-react";
 
 export function Footer() {
   const currentYear = 2026; // Hardcoded to 2026 as per spec
@@ -43,11 +43,27 @@ export function Footer() {
               <Linkedin size={20} />
             </a>
             <a 
+              href="https://instagram.com/_.amanullah" 
+              target="_blank" 
+              rel="noreferrer"
+              className="text-[var(--text-secondary)] hover:text-[var(--accent-500)] transition-all duration-300 hover:scale-110"
+              aria-label="Instagram"
+            >
+              <Instagram size={20} />
+            </a>
+            <a 
               href={`mailto:${CONTACT_EMAIL}`}
               className="text-[var(--text-secondary)] hover:text-[var(--accent-500)] transition-all duration-300 hover:scale-110"
               aria-label="Email"
             >
               <Mail size={20} />
+            </a>
+            <a 
+              href={`tel:${CONTACT_PHONE.replace(/\s+/g, "")}`}
+              className="text-[var(--text-secondary)] hover:text-[var(--accent-500)] transition-all duration-300 hover:scale-110"
+              aria-label="Phone"
+            >
+              <Phone size={20} />
             </a>
           </div>
 
