@@ -127,15 +127,15 @@ export function HeroText() {
 
       <div className="mb-4 perspective-[1000px]">
         {/* We use a manual split into spans to emulate SplitText cleanly without premium plugins */}
-        <div className="relative inline-block font-display font-bold text-display leading-none tracking-tight">
-          {"AMAAN".split("").map((c, i) => (
+        <div className="relative inline-block font-display font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none tracking-tight whitespace-nowrap">
+          {"MD AMANULLAH".split("").map((c, i) => (
             <span key={i} className="hero-char inline-block opacity-0 transform-gpu">
-              {c}
+              {c === " " ? "\u00A0" : c}
             </span>
           ))}
           {/* GlitchText overlay - absolute positioned to trigger random glitches later */}
           <div className="absolute inset-0 z-10 text-transparent opacity-0 mix-blend-overlay">
-            <GlitchText text="AMAAN" />
+            <GlitchText text="MD AMANULLAH" />
           </div>
         </div>
       </div>

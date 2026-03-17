@@ -53,16 +53,16 @@ export function GlitchText({ text, className }: { text: string; className?: stri
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <h1 
+      <div 
         // @ts-ignore
         ref={textRef} 
-        className="font-display font-bold text-display leading-none tracking-tight split-target overflow-hidden"
+        className="font-display font-bold leading-none tracking-tight split-target overflow-hidden whitespace-nowrap"
       >
         {text}
-      </h1>
-      <h1 className="absolute inset-0 font-display font-bold text-display leading-none tracking-tight opacity-0 pointer-events-none select-none">
+      </div>
+      <div className="absolute inset-0 font-display font-bold leading-none tracking-tight opacity-0 pointer-events-none select-none whitespace-nowrap">
         {text}
-      </h1>
+      </div>
     </div>
   );
 }

@@ -61,6 +61,13 @@
   body {
     @apply bg-[var(--bg-primary)] text-[var(--text-primary)] font-body antialiased;
   }
+
+  /* Hide default cursor on desktop/mouse devices */
+  @media (pointer: fine) {
+    body, a, button, input, textarea, select {
+      cursor: none !important;
+    }
+  }
 }
 
 @layer utilities {

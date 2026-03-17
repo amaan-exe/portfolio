@@ -19,7 +19,7 @@ export function Footer() {
           </div>
 
           <div className="text-center flex flex-col items-center md:items-end gap-2 text-xs md:text-sm text-[var(--text-secondary)] font-body">
-            <p>Built with Next.js, GSAP, Three.js</p>
+            <p>Built with Love and prominent technologies.</p>
             <p>© {currentYear} Md Amanullah · All rights reserved.</p>
           </div>
 

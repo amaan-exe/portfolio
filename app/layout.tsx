@@ -3,6 +3,7 @@ import { Space_Grotesk, DM_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { SmoothScrollProvider } from "@/components/providers/SmoothScrollProvider";
 import { Chatbot } from "@/components/chat/Chatbot";
+import { CustomCursor } from "@/components/ui/CustomCursor";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -64,6 +65,7 @@ export default function RootLayout({
       <body className="antialiased">
         <SmoothScrollProvider>
           {children}
+          <CustomCursor />
           <Chatbot />
         </SmoothScrollProvider>
       </body>
